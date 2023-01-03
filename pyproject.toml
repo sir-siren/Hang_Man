@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "Hangman_Project"
+version = "1.5"
+description = "Hangman is a classic word guessing game in which the player tries to guess the secret word by suggesting letters or numbers, within a certain number of guesses. The game is called Hangman because the player must avoid having the stick figure being "hung" by guessing the word before the stick figure is fully drawn."
+authors = ["Sir.Siren"]
+twitter = ["@agentfost"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+numpy = "^1.22.2"
+replit = "^3.2.4"
+Flask = "^2.2.0"
+urllib3 = "^1.26.12"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
