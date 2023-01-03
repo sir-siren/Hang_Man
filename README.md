@@ -11,6 +11,8 @@ To play the game, you will need to have Python installed on your computer. If yo
 5. Continue guessing letters until you are able to correctly guess the word or until you run out of chances.
 6. If you are able to correctly guess the word, you win the game. If you run out of chances, you lose the game.
 
+![HANG-MAN](https://cdn.discordapp.com/attachments/966283152643465226/1059945602236027011/HANG-MAN.png)
+
 ## Example:
 ```py
 Welcome to Hangman!
