@@ -1,7 +1,7 @@
 # HangMan
 Welcome to the hangman game! In this game, the computer will select a word and you will have to guess the letters in the word one by one. You will have a certain number of chances to guess the word correctly. If you are able to guess the word within the allowed number of chances, you win the game. If you are not able to guess the word, you lose the game.
 
-To play the game, you will need to have Python installed on your computer. If you do not have Python installed, you can download it from the official Python website: [Python](https://www.python.org/).
+> To play the game, you will need to have Python installed on your computer. If you do not have Python installed, you can download it from the official Python website: [Python](https://www.python.org/).
 
 ## How to play:
 1. Open a terminal or command prompt and navigate to the directory where you have saved the hangman game file.
