@@ -6,7 +6,7 @@ To play the game, you will need to have Python installed on your computer. If yo
 ## How to play:
 1. Open a terminal or command prompt and navigate to the directory where you have saved the hangman game file.
 2. Run the game using the command ```python hangman.py```
-3. The computer will select a word and display a number of underscores on the screen, one for each letter in the word. For example, if the word is "python", the computer will display "_____".
+3. The computer will select a word and display a number of underscores on the screen, one for each letter in the word. For example, if the word is "python", the computer will display "_ _ _ _ _".
 4. You will be asked to enter a letter. If the letter is present in the word, the underscores will be replaced with the correct letters. If the letter is not present in the word, you will lose one of your chances.
 5. Continue guessing letters until you are able to correctly guess the word or until you run out of chances.
 6. If you are able to correctly guess the word, you win the game. If you run out of chances, you lose the game.
