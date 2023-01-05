@@ -14,22 +14,228 @@ Welcome to the hangman game! In this game, the computer will select a word and y
 ![HANG-MAN](https://cdn.discordapp.com/attachments/966283152643465226/1059945602236027011/HANG-MAN.png)
 
 ## Example:
+### Win:
 ```py
-Welcome to Hangman!
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/    
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
 
-The word is: _ _ _ _ _
+Guess a letter: h
+h _ _ _ _ _ _ _
 
-Enter a letter: p
-The word is: p _ _ _ p
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
 
-Enter a letter: y
-The word is: p y _ _ p
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
 
-Enter a letter: t
-The word is: p y t h _ p
+Guess a letter: a
+h a _ _ _ _ _ _
 
-Enter a letter: h
-The word is: python
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
 
-Congratulations, you won!
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
+
+Guess a letter: z
+h a z _ _ _ _ _
+
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
+
+Guess a letter: e
+h a z e _ _ _ _
+
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
+
+Guess a letter: l
+h a z e l _ _ _
+
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
+
+Guess a letter: n
+h a z e l n _ _
+
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
+
+Guess a letter: u
+h a z e l n u _
+
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+
+Hint: This small, brown nut with a hard outer shell is often used in cooking and baking. It is also the main ingredient in chocolate-hazelnut spread.
+
+Guess a letter: t
+h a z e l n u t
+You win.
+
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+```
+
+### Lose
+
+```py
+ 
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/    
+Hint: This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.
+
+Guess a letter: l
+You guessed l, that's not in the word. You lose a life.
+_ _ _ _ _ _ _ _
+
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+
+Hint: This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.
+
+Guess a letter: o
+_ _ _ _ _ _ o o
+
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+
+Hint: This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.
+
+Guess a letter: e
+You guessed e, that's not in the word. You lose a life.
+_ _ _ _ _ _ o o
+
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+
+Hint: This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.
+
+Guess a letter: w
+You guessed w, that's not in the word. You lose a life.
+_ _ _ _ _ _ o o
+
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========
+Hint: This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.
+
+Guess a letter: q
+You guessed q, that's not in the word. You lose a life.
+_ _ _ _ _ _ o o
+
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+
+Hint: This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.
+
+Guess a letter:         
+You guessed     , that's not in the word. You lose a life.
+_ _ _ _ _ _ o o
+
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+
+Hint: This marsupial is native to Australia and is known for its powerful legs and its ability to hop long distances.
+
+Guess a letter: d
+You guessed d, that's not in the word. You lose a life.
+You lose, The Answer is kangaroo.
+_ _ _ _ _ _ o o
+
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
 ```
