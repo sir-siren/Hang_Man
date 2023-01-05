@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "Hangman_Project"
-version = "1.5"
-description = "Hangman is a classic word guessing game in which the player tries to guess the secret word by suggesting letters or numbers, within a certain number of guesses. The game is called Hangman because the player must avoid having the stick figure being "hung" by guessing the word before the stick figure is fully drawn."
+version = "1.6"
+description = '''Hangman is a classic word guessing game in which the player tries to guess the secret word by suggesting letters or numbers, within a certain number of guesses. The game is called Hangman because the player must avoid having the stick figure being "hung" by guessing the word before the stick figure is fully drawn.'''
 authors = ["Sir.Siren"]
 twitter = ["@agentfost"]
 
