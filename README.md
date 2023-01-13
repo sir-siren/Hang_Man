@@ -1,16 +1,15 @@
 # HangMan
-Welcome to the hangman game! In this game, the computer will select a word and you will have to guess the letters in the word one by one. You will have a certain number of chances to guess the word correctly. If you are able to guess the word within the allowed number of chances, you win the game. If you are not able to guess the word, you lose the game.
+Welcome to Hangman Games! In this game the computer chooses a word and he has to guess the letters of the word one by one. You have a certain number of chances to guess the word correctly. If you can guess the word within the number of chances given, you win the game. If you can't guess the word, you lose the game.
 
-> To play the game, you will need to have Python installed on your computer. If you do not have Python installed, you can download it from the official Python website: [Python](https://www.python.org/).
+> Your computer must have Python installed to play the game. If you don't have Python installed, visit the official Python website Python: [Python](https://www.python.org/).
 
 ## How to play:
-1. Open a terminal or command prompt and navigate to the directory where you have saved the hangman game file.
-2. Run the game using the command ```python hangman.py```
-3. The computer will select a word and display a number of underscores on the screen, one for each letter in the word. For example, if the word is "python", the computer will display "_ _ _ _ _".
-4. You will be asked to enter a letter. If the letter is present in the word, the underscores will be replaced with the correct letters. If the letter is not present in the word, you will lose one of your chances.
-5. Continue guessing letters until you are able to correctly guess the word or until you run out of chances.
-6. If you are able to correctly guess the word, you win the game. If you run out of chances, you lose the game.
-
+1. Open a terminal or command prompt and navigate to the directory where you saved the Hangman game files.
+2. Start the game with the command ```python hangman.py```.
+3. The computer selects a word and displays a series of underscores on the screen for each letter of the word. For example, if the word is "Python", the computer will display "_ _ _ _ _".
+4. You will be prompted to enter a character. The underscore is replaced with the correct character if the character exists within a word. If the letter is not in the word, you lose one of your chances.
+5. Keep guessing letters until you guess the word correctly or you run out of chances.
+6. Whoever guesses the word correctly wins the game. If you run out of chances, you lose the game
 ![HANG-MAN](https://cdn.discordapp.com/attachments/966283152643465226/1059945602236027011/HANG-MAN.png)
 
 ## Example:
